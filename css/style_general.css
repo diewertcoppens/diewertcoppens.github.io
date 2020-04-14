@@ -24,9 +24,9 @@
 
     p.header {
         font-family: 'gt sectra', serif; 
-        font-size: 40px;
-        line-height: 48px;
-        margin: 0px 0px 20px 0px!important;  
+        font-size: 80px;
+        line-height: 96px;
+        margin: 0px 0px 40px 0px!important;  
         color: var(--green); 
         font-weight: 100; 
         text-align: center;
@@ -36,8 +36,8 @@
         font-family: 'objektiv-mk2';
         font-weight: 700;
         font-style: normal;
-        font-size: 16px;
-        line-height: 32px;
+        font-size: 32px;
+        line-height: 64px;
         margin: 0px!important; 
         color: var(--green); 
         text-align: center;
@@ -48,9 +48,9 @@
         font-family: 'objektiv-mk2';
         font-weight: 400;
         font-style: normal;
-        font-size: 16px;
-        line-height: 32px;
-        margin: 0px 0px 24px 0px!important; 
+        font-size: 32px;
+        line-height: 64px;
+        margin: 0px 0px 48px 0px!important; 
         color: var(--gray); 
         text-align: center;
     }
@@ -62,9 +62,9 @@
     }
 
     .small-screen {
-        min-width: 100px; 
-        max-width: 250px;  
-        margin: 50px auto; 
+        min-width: 200px; 
+        max-width: 500px;  
+        margin: 100px auto; 
     }
 }
 
