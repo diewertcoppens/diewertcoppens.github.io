@@ -1,5 +1,21 @@
-h1 {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    color: red; 
-    font-size: 120px;
+@font-face {
+    font-family: 'gt sectra';
+    src: url(../fonts/GT-Sectra-Fine-Medium-Trial.otf);
+    font-style: normal;
+    font-weight: 100; 
 }
+
+h1 {
+    font-family: "gt sectra";
+    color:#004631; 
+    font-size: 50px;
+    font-weight: 100;
+}
+
+p.bodytext {
+    font-family: objektiv-mk2, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #353535;
+}
+
