@@ -1,0 +1,52 @@
+.verzameling {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 120px 0px; 
+}
+
+.image-lockup {
+    display: inline-block;
+}
+
+.logo-lockup {
+    width: 200px; 
+}
+
+.logo-lockup2 {
+    width: 300px; 
+    margin: 0px 0px 20px 0px; 
+}
+
+.photo_big {
+    width: 300px; 
+}
+
+.verzameling2 {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%; 
+}
+
+.rij {
+    display: block; 
+    min-width: 80%;
+    padding: 0px 10%; 
+}
+
+.rij-links {
+    display: inline-block; 
+    width: 250px;
+    margin: 15px 0px;
+}
+
+.rij-rechts {
+    display: inline-block; 
+    width: 250px; 
+    margin: 15px 0px; 
+}
+
+div.flex {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; 
+}

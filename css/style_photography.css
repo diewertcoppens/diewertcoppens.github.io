@@ -1,0 +1,11 @@
+.photography-example {
+    display: inline;
+    width: 220px;
+    margin: 20px 20px 50px 20px;  
+}
+
+div.photography {
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;; 
+}

@@ -115,6 +115,10 @@ body {
     margin: 0px!important;
 }
 
+div.half-left {
+    max-width: 600px; 
+}
+
 .website-small {
     display: none; 
 }
