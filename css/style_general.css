@@ -1,3 +1,4 @@
+/**************************************** VARIABLES ****************************************/
 @font-face {
     font-family: 'gt sectra';
     src: url(../fonts/GT-Sectra-Fine-Medium-Trial.otf);
@@ -12,6 +13,20 @@
     --accent: #588369;
     --accentlight: #58836983; 
 }
+
+.align-right {
+    text-align: right; 
+}
+
+.twentyfive {
+    width: 25%!important;
+}
+
+.sixtyfive {
+    width: 65%!important; 
+}
+
+/**************************************** NAVBAR ****************************************/
 
 html {
     padding: 0px!important;
@@ -30,7 +45,7 @@ body {
 
 .container {
     margin: 0px!important;
-    padding: 0px 12.5%; 
+    padding: 85px 12.5% 0px 12.5%; 
     width: 75%; 
 }
 
@@ -73,5 +88,123 @@ a.navbar_button:hover {
 a.navbar_button:active {
     color: var(--accentlight);
     transition-duration: 0.3; 
+}
+
+/**************************************** CHARACTER STYLES ****************************************/
+p.header {
+    font-family: 'gt sectra', serif; 
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0px 0px 20px 0px!important;  
+    color: var(--green); 
+    font-weight: 100; 
+}
+
+p.header-big {
+    font-family: 'gt sectra', serif; 
+    font-size: 72px;
+    line-height: 86px;
+    margin: 0px 0px 24px 0px!important;  
+    color: var(--green); 
+    font-weight: 100; 
+}
+
+p.subheader {
+    font-family: 'objektiv-mk2';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0px!important; 
+    color: var(--green); 
+}
+
+p.subheader2 {
+    font-family: objektiv-mk2, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0px!important; 
+    color: var(--green); 
+}
+
+p.bodytext {
+    font-family: 'objektiv-mk2';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0px 0px 24px 0px!important; 
+    color: var(--gray); 
+}
+
+/**************************************** BUTTON  ****************************************/
+
+a.button-regular {
+    text-decoration: none; 
+    color: var(--green);
+}
+
+button.button-regular {
+    font-family: 'objektiv-mk2';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    background-color: transparent; 
+    color: var(--green); 
+    min-width: 170px;
+    min-height: 35px; 
+    text-align: center; 
+    border: 1px solid var(--green); 
+    border-radius: 100px; 
+    margin: 40px auto 0px auto;
+    display:block;
+}
+
+a.button-regular:hover {
+    color: var(--accent);
+    transition-duration: 0.3s; 
+}
+
+button.button-regular:hover {
+    color: var(--accent); 
+    border: 1px solid var(--accent); 
+    transition-duration: 0.3s; 
+}
+
+a.button-regular:active {
+    color: var(--accentlight);
+    transition-duration: 0.3s; 
+}
+
+button.button-regular:active {
+    color: var(--accentlight); 
+    border: 1px solid var(--accentlight); 
+    transition-duration: 0.3s; 
+}
+
+/**************************************** LISTS  ****************************************/
+
+ul {
+    list-style: none; 
+  }
+  
+ul li::before {
+    content: "\2022";  
+    color: var(--green); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em; 
+}
+
+li {
+    font-family: 'objektiv-mk2';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--gray); 
 }
 

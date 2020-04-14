@@ -1,5 +1,32 @@
-p.header {
-    font-family: 'gt sectra', serif; 
+div.half-left {
+    max-width: 600px; 
+}
+
+div.font-family {
+    margin: 50px auto 50px auto; 
+    width: 90%;
+    display: flex;
+    justify-content: space-between;  
+}
+
+div.font-family-center {
+    margin: 50px auto 50px auto; 
+    width: 90%;
+    display: flex;
+    justify-content: center;  
+}
+
+div.font-family-sub {
+    word-wrap:break-word;
+    width: 42%; 
+    display: inline-block; 
+}
+
+.padding-top{
+    padding-top: 40px; 
+}
+
+p.font-example-big {
     font-size: 40px;
     line-height: 48px;
     margin: 0px 0px 20px 0px!important;  
@@ -7,22 +34,23 @@ p.header {
     font-weight: 100; 
 }
 
-p.subheader {
-    font-family: 'objektiv-mk2';
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 32px;
-    margin: 0px!important; 
-    color: var(--green); 
-}
-
-p.bodytext {
-    font-family: 'objektiv-mk2';
+p.font-example-small {
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 25px;
+    line-height: 30px;
     margin: 0px 0px 24px 0px!important; 
-    color: var(--gray); 
+    color: var(--gray);
+}
+
+.gtsectra {
+    font-family: 'gt sectra';
+}
+
+.objektiv {
+    font-family: 'objektiv-mk2';
+}
+
+.arial {
+    font-family: 'arial'; 
 }
