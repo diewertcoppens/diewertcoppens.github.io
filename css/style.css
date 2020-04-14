@@ -1,21 +1,28 @@
-@font-face {
-    font-family: 'gt sectra';
-    src: url(../fonts/GT-Sectra-Fine-Medium-Trial.otf);
-    font-style: normal;
+p.header {
+    font-family: 'gt sectra', serif; 
+    font-size: 40px;
+    line-height: 48px;
+    margin: 0px 0px 20px 0px!important;  
+    color: var(--green); 
     font-weight: 100; 
 }
 
-h1 {
-    font-family: "gt sectra";
-    color:#004631; 
-    font-size: 50px;
-    font-weight: 100;
+p.subheader {
+    font-family: 'objektiv-mk2';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0px!important; 
+    color: var(--green); 
 }
 
 p.bodytext {
-    font-family: objektiv-mk2, sans-serif;
+    font-family: 'objektiv-mk2';
     font-weight: 400;
     font-style: normal;
-    color: #353535;
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0px 0px 24px 0px!important; 
+    color: var(--gray); 
 }
-

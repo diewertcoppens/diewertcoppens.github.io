@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'gt sectra';
+    src: url(../fonts/GT-Sectra-Fine-Medium-Trial.otf);
+    font-style: normal;
+    font-weight: 100; 
+}
+
+:root {
+    --green: #004631;
+    --gray: #353535;
+    --shadow: #00463127;
+    --accent: #588369;
+    --accentlight: #58836983; 
+}
+
+html {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+body {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.website {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.container {
+    margin: 0px!important;
+    padding: 0px 12.5%; 
+    width: 75%; 
+}
+
+.navbar {
+    padding: 0px 10%; 
+    width: 80%; 
+    height: 80px; 
+    background-color:white; 
+    color: var(--gray);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    box-shadow: 0px 3px 5px var(--shadow); 
+}
+
+.navbar_item_container {
+    font-family: 'objektiv-mk2', sans-serif; 
+    font-size: 16px; 
+    font-weight: 400; 
+    font-style: normal;
+    color: #004631; 
+    display: inline-block; 
+}
+
+.navbar_logo {
+    width: 40px; 
+    margin: auto; 
+}
+
+a.navbar_button {
+    text-decoration: none; 
+    color: var(--green); 
+}
+
+a.navbar_button:hover {
+    color: var(--accent); 
+    transition-duration: 0.3s; 
+}
+
+a.navbar_button:active {
+    color: var(--accentlight);
+    transition-duration: 0.3; 
+}
+
