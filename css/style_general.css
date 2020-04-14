@@ -1,4 +1,74 @@
-@media (max-width: 999px) {
+@media (max-width: 501px ) and (max-width: 999px) {
+    .website-big {
+        display: none; 
+    }
+
+    @font-face {
+        font-family: 'gt sectra';
+        src: url(../fonts/GT-Sectra-Fine-Medium-Trial.otf);
+        font-style: normal;
+        font-weight: 100; 
+    }
+
+    :root {
+        --green: #004631;
+        --gray: #353535;
+        --shadow: #00463127;
+        --accent: #588369;
+        --accentlight: #58836983; 
+    }
+
+    .website-small {
+        margin: 0px 10%; 
+    }
+
+    p.header {
+        font-family: 'gt sectra', serif; 
+        font-size: 40px;
+        line-height: 48px;
+        margin: 0px 0px 20px 0px!important;  
+        color: var(--green); 
+        font-weight: 100; 
+        text-align: center;
+    }
+     
+    p.subheader {
+        font-family: 'objektiv-mk2';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 32px;
+        margin: 0px!important; 
+        color: var(--green); 
+        text-align: center;
+    }
+    
+    
+    p.bodytext {
+        font-family: 'objektiv-mk2';
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 32px;
+        margin: 0px 0px 24px 0px!important; 
+        color: var(--gray); 
+        text-align: center;
+    }
+
+    .small-screen-div {
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .small-screen {
+        min-width: 100px; 
+        max-width: 250px;  
+        margin: 50px auto; 
+    }
+}
+
+@media (max-width: 0px ) and (max-width: 500px) {
     .website-big {
         display: none; 
     }
