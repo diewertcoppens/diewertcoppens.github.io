@@ -1,0 +1,26 @@
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    font-size: 20px;
+    width: 40%; 
+}
+
+img.tone-of-voice {
+    width: 100%;  
+    margin-top: 10%; 
+    align-content: flex-start;
+}
+
+i {
+    color: var(--green); 
+}
+
+.container-voice {
+    height: 200vh; 
+}
+
+.clear-text {
+    margin-bottom:0px!important; 
+}

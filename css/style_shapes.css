@@ -1,0 +1,15 @@
+.divider {
+    display: inline-block;
+    background-color: white;
+}
+
+.subdivider {
+    width: 300px; 
+    margin: 20px 15px; 
+}
+
+.image_shape {
+    width: 150px;
+    margin: 20px 75px;  
+}
+

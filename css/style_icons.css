@@ -1,0 +1,20 @@
+.justify {
+    display: block;
+    width: 60%; 
+    flex-wrap: wrap; 
+    margin: 70px auto 50px auto; ; 
+    box-shadow: 0px 0px 15px var(--shadow); 
+    padding: 50px 50px 30px 50px; 
+} 
+
+img.icon {
+    display: inline-block;
+    width: 15%; 
+    max-width: 110px; 
+    padding: 0px 5%; 
+}
+
+div.row {
+    display: block; 
+    margin: 0px auto 50px auto; 
+}
