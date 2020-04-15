@@ -1,0 +1,36 @@
+div.colour {
+    display: flex; 
+    flex-wrap: nowrap; 
+}
+
+.width-70 {
+    width: 69%; 
+    display: flex; 
+    align-content: center;
+}
+
+.width-30 {
+    width: 29%; 
+}
+
+.image-lockup-colour {
+    display: inline-block;
+    padding: 20px; 
+    background-color: white;
+    margin: -50px 0px; 
+}
+
+.logo-lockup-colour {
+    width: 180px; 
+    height: 180px; 
+    margin: auto 50px auto 0px;
+}
+
+.vertical-align {
+    display: inline-block;
+}
+
+.clear-margin {
+    margin: 25px 0px!important; 
+}
+

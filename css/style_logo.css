@@ -1,24 +1,51 @@
 .verzameling {
     display: flex;
     justify-content: space-evenly;
-    margin: 120px 0px; 
+    margin: 100px 0px; 
+}
+
+.download-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 0px 120px 0px; 
 }
 
 .image-lockup {
     display: inline-block;
+    width: 230px;
+    height: 310px; 
+    background-color: white;
+    box-shadow: 0px 0px 15px var(--shadow); 
+}
+
+.image-lockup-clear {
+    display: inline-block;
+    background-color: white;
 }
 
 .logo-lockup {
     width: 200px; 
+    margin: 20px 15px; 
 }
 
 .logo-lockup2 {
-    width: 300px; 
+    width: 250px; 
     margin: 0px 0px 20px 0px; 
+}
+
+.logo-lockup3 {
+    width: 200px; 
+}
+
+.rij-logo {
+    display: inline-block; 
+    width: 200px;
+    margin: 15px 0px;
 }
 
 .photo_big {
     width: 300px; 
+    margin-top: -30px; 
 }
 
 .verzameling2 {
@@ -29,8 +56,7 @@
 
 .rij {
     display: block; 
-    min-width: 80%;
-    padding: 0px 10%; 
+    width: 100%;  
 }
 
 .rij-links {
