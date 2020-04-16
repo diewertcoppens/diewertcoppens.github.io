@@ -7,6 +7,10 @@
     padding: 50px 50px 30px 50px; 
 } 
 
+.justify2 {
+    text-align: center; 
+} 
+
 img.icon {
     display: inline-block;
     width: 15%; 

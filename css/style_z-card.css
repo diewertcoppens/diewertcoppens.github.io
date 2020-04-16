@@ -1,0 +1,260 @@
+img.design-image {
+    width: 100%; 
+}
+
+#myImg {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;   
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.75); 
+  }
+
+  .modal-content {
+    margin: auto;
+    display: block;
+    height: 95%; 
+    padding: 2.5% 0px; 
+  }
+    
+
+  .modal-content {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: var(--green);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: var(--accent); 
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close:active {
+      color: var(--accentlight); 
+  }
+
+
+  
+  
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  img.design-image {
+    width: 100%; 
+}
+
+#myImg2 {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg2:hover {opacity: 0.7;}
+  
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;   
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.75); 
+  }
+
+  .modal-content {
+    margin: auto;
+    display: block;
+    height: 95%; 
+    padding: 2.5% 0px; 
+  }
+    
+
+  .modal-content {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  .close2 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: var(--green);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: var(--accent); 
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close2:active {
+      color: var(--accentlight); 
+  }
+
+
+  
+  
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+  img.design-image {
+    width: 100%; 
+}
+
+#myImg3 {
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg3:hover {opacity: 0.7;}
+  
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1;   
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.75); 
+  }
+
+  .modal-content {
+    margin: auto;
+    display: block;
+    height: 95%; 
+    padding: 2.5% 0px; 
+  }
+    
+
+  .modal-content {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  .close3 {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: var(--green);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: var(--accent); 
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close3:active {
+      color: var(--accentlight); 
+  }
+
+
+  
+  
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+
+/******************************* OPMAAK **************************/
+
+div.design-example {
+    width: 70%; 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 80px auto; 
+    padding: 20px; 
+    box-shadow: 0px 0px 20px var(--shadow); 
+}
+
+div.design-image {
+    width: 60%; 
+    margin: -20px 0px -20px -20px; 
+    background-color: #f2f4f3; 
+}
+
+div.design-text {
+    width: 40%; 
+    display: flex; 
+    align-content: center;
+}
+
+div.design-download {
+    margin: auto; 
+}
+

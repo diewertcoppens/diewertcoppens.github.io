@@ -257,6 +257,36 @@ a.navbar_button:active {
         outline: 0;
       }
 
+/**************************************** FOOTER ****************************************/
+div.footer {
+    padding: 20px 10% 0px 10%;   
+    width: 80%; 
+    max-height: 170px; 
+    background-color:white; 
+    color: var(--gray);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    box-shadow: 0px -3px 5px var(--shadow); 
+    margin-top: 30px; 
+}
+
+img.logo-ancientchemistry {
+    height: 50px; 
+    margin: auto; 
+}
+
+img.logo-artevelde {
+    height: 30px; 
+    margin: 18px 0px; 
+}
+
+div.info {
+    height: 100%;
+}
+
+
+
 /**************************************** CHARACTER STYLES ****************************************/
 p.header {
     font-family: 'gt sectra', serif; 
@@ -324,7 +354,8 @@ button.button-regular {
     font-size: 16px;
     background-color: transparent; 
     color: var(--green); 
-    min-width: 170px;
+    min-width: 130px;
+    padding: 0px 20px; 
     min-height: 35px; 
     text-align: center; 
     border: 1px solid var(--green); 
