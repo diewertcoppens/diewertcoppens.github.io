@@ -1,0 +1,29 @@
+%!Adobe-FontList 1.20
+%Locale:0x413
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GTSectraFineTrial-Md
+FamilyName:GT Sectra Fine Trial
+StyleName:Md
+FullName:GT Sectra Fine Trial Md
+MenuName:GT Sectra Fine Trial Md
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\diewe\Desktop\Website_Guidelines\diewertcoppens.github.io\images\design\z-card\z-card_finaal Folder\Document fonts\GT-Sectra-Fine-Medium-Trial.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:23324
+FileModTime:1583504989
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,GT Sectra Fine Trial Md
+NameArray:0,Win,1,GT Sectra Fine Trial Md
+NameArray:0,Win,16,GT Sectra Fine Trial
+%EndFont
+
