@@ -3,6 +3,10 @@
         display: none; 
     }
 
+    .footer {
+        display: none; 
+    }
+
     @font-face {
         font-family: 'gt sectra';
         src: url(../fonts/GT-Sectra-Fine-Medium-Trial.otf);
