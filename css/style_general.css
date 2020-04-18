@@ -285,6 +285,11 @@ div.info {
     height: 100%;
 }
 
+div.center-text {
+    width: 70%;
+    margin: 0px auto; 
+    text-align: center!important; 
+}
 
 
 /**************************************** CHARACTER STYLES ****************************************/
@@ -301,9 +306,10 @@ p.header-big {
     font-family: 'gt sectra', serif; 
     font-size: 72px;
     line-height: 86px;
-    margin: 0px 0px 24px 0px!important;  
+    margin: 50px 0px 120px 0px!important;  
     color: var(--green); 
     font-weight: 100; 
+    text-align: center; 
 }
 
 .subheader {
@@ -347,6 +353,11 @@ a.button-regular {
     color: var(--green);
 }
 
+a.button-big {
+    text-decoration: none; 
+    color: var(--green);
+}
+
 button.button-regular {
     font-family: 'objektiv-mk2';
     font-weight: 400;
@@ -361,6 +372,23 @@ button.button-regular {
     border: 1px solid var(--green); 
     border-radius: 100px; 
     margin: 40px auto 0px auto;
+    display:block;
+}
+
+button.button-big {
+    font-family: 'objektiv-mk2';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    background-color: transparent; 
+    color: var(--green); 
+    min-width: 195x;
+    padding: 0px 30px; 
+    min-height: 52.5px; 
+    text-align: center; 
+    border: 1px solid var(--green); 
+    border-radius: 150px; 
+    margin: 80px auto 110px auto!important;
     display:block;
 }
 
@@ -385,6 +413,28 @@ a.button-regular:active {
 }
 
 button.button-regular:active {
+    color: var(--accentlight); 
+    border: 1px solid var(--accentlight); 
+    transition-duration: 0.3s; 
+}
+
+a.button-big:hover {
+    color: var(--accent);
+    transition-duration: 0.3s; 
+}
+
+button.button-big:hover {
+    color: var(--accent); 
+    border: 1px solid var(--accent); 
+    transition-duration: 0.3s; 
+}
+
+a.button-big:active {
+    color: var(--accentlight);
+    transition-duration: 0.3s; 
+}
+
+button.button-big:active {
     color: var(--accentlight); 
     border: 1px solid var(--accentlight); 
     transition-duration: 0.3s; 
