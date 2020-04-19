@@ -316,6 +316,15 @@ p.header-big {
     text-align: center; 
 }
 
+p.header-big2 {
+    font-family: 'gt sectra', serif; 
+    font-size: 72px;
+    line-height: 86px;
+    margin: 0px 0px 24px 0px!important; 
+    color: var(--green); 
+    font-weight: 100; 
+}
+
 .subheader {
     font-family: 'objektiv-mk2';
     font-weight: 700;
